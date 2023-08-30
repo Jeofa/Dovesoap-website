@@ -1,0 +1,179 @@
+body{
+    overflow-x:hidden;
+    /* background-image: url("/img/bg01.webp");
+    width: 100pc; */
+}
+#logo{
+    height: 165px;
+    margin-top: -33px;
+}
+.navbar{
+    height: 100px;
+}
+.navbar-nav{
+    margin-left: 100px;
+}
+.navbar-nav li{
+    padding: 20px;
+}
+.navbar-nav li:hover{
+   background-color: rgb(189, 189, 197);
+   border-radius: 10px;
+   text-decoration: underline;
+}
+.navbar-nav li a{
+   text-decoration: none;
+}
+#searchbar{
+    margin-left: 250px;
+}
+#search{
+    margin-right: 10px;
+}
+.carousel-inner{
+    width: 81pc;
+}
+#carousel-no1{
+    color: brown;
+    position: absolute;
+    font-size: x-large;
+    font-family: cursive;
+    font-weight: 600;
+}
+#carousel-no2{
+    margin-left: -860px;
+    color: brown;
+    position: absolute;
+    font-size: x-large;
+    font-family: cursive;
+    font-weight: 600;
+}
+#carousel-no3{
+    color: brown;
+    margin-left: -435px;
+    display: inline-block;
+    margin-top: -200px;
+    position: absolute;
+    font-size: x-large;
+    font-family: cursive;
+    font-weight: 600;
+
+}
+#imgc{
+    width: 82pc;
+    height: 32pc;
+}
+#welcome{
+    text-align: center;
+}
+#welcome h3{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: brown;
+    font-size: xx-large;
+}
+#para1{
+    width: 450px;
+    margin-left: 320PX;
+}
+#para1:hover{
+    color: blue;
+}
+#mrkt01{
+    position: absolute;
+    margin-left:289px;
+    width:200px;
+    opacity: .2;
+}
+#mkrt03{
+    z-index: -1;
+    position: absolute;
+    width: 389px;
+    margin: -32px;
+    height: 344px;
+}
+#mrkt03h{
+    margin-top: 50px;
+    color: blue;
+    text-align: right;
+    font-size: xx-large;
+    margin-right: 46px;
+}
+#fmrkt01{
+    margin-left: 60px;
+    margin-right: 46px;
+    text-align: right;
+}
+#missionheader{
+    text-decoration-line: overline;
+}
+.jumbotron{
+    color: blue;
+    text-align: center;
+    font-size: x-large;
+}
+.jumbotron h3{
+    color: black;
+    margin-bottom: 22px;
+    font-size: larger;
+    margin-top: -38px;
+    text-decoration-line: overline;
+}
+#mission1{
+    text-align: center;
+    position: relative;
+    background-image: url("/img/bg01.webp");
+    margin: 20px 0px 74px;
+    height: 177px;
+}
+
+#contact{
+    text-align: center;
+}
+#contact h3{
+    color: blue;
+}
+#prods1{
+    width: 150px;
+}
+#proddis{
+    width: 406px;
+    height: 270px;
+}
+#prod-item{
+    width: 200px;
+}
+#prod-item p{
+    color: red;
+}
+#imgp{
+    height: 100px;
+    margin-right: 118px;
+    width: 172px;
+}
+#feedbck{
+    margin-bottom: -42px;
+}
+#disclaimer{
+    margin-top: 60px;
+}
+#footer1 li{
+    text-decoration: none;
+    list-style-type: none;
+}
+#footer2 li{
+    text-decoration: none;
+    list-style-type: none;
+}
+#footer1{
+    /* margin-left: 66px; */
+    margin-left: 100px;
+    /* position: absolute; */
+}
+#footer2{
+    /* position: absolute; */
+    margin-left: -140px;
+}
+/* #footer li{
+
+} */
