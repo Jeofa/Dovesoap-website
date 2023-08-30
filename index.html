@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="">
+    <link rel="icon" href="img/dovelogo1.jpeg" type="image/icon type">
+   <script src="js/next.min.js"></script>
+    <script src="js/nexter.min.js"></script>
+    <script src="js/booter.js"></script>
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Dovesoap</title>
+</head>
+<body>
+    <!-- navbar -->
+    <div class="navbar navbar-expand-lg bg-light">
+        <a class="nav-brand" href="#">
+            <img src="img/logo.png" alt="logo" id="logo"> <!--logo-->
+        </a>
+        <ul class="navbar-nav justify-content-center" id="navbar">
+            <li class="navbar-item"><a href="#home" class="navbar-link">Home</a></li>
+            <li class="navbar-item"><a href="#about" class="navbar-link">About</a></li>
+            <li class="navbar-item"><a href="#products" class="navbar-link">Product</a></li>
+            <li class="navbar-item"><a href="contact.php" class="navbar-link">Contact</a></li>
+        </ul>
+        <div class="form-inline" id="searchbar">
+            <div class="input-group">
+                <input type="text" name="search" id="search" placeholder="search">
+                <button type="submit" class="btn btn-primary">search</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- carousel -->
+    <div id="home" class="container-fluid">
+        <div class="carousel slide" data-ride="carousel" id="carsel">
+            <!-- indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#carsel" data-slide-to="0" class="active"></li>
+                <li data-target="#carsel" data-slide-to="1"></li>
+                <li data-target="#carsel" data-slide-to="2"></li>
+            </ul>
+            <!-- showimages -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/carousel1.webp" id="imgc">
+                    <div class="carousel-caption" id="carousel-no1">
+                        <p>Maintained beauty never fades</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carousel4.webp" id="imgc">
+                    <div class="carousel-caption" id="carousel-no2">
+                        Water is essential for us and our planet, <br> it's our responsibility to help protect <br> and conserve it
+                        <p></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carousel2.webp" id="imgc">
+                    <div class="carousel-caption" id="carousel-no3">
+                        <p>
+                            Dove soap contains all the relevant <br> creams and compounds that not <br>only cleanse the oily skin but also<br>
+                            prevent it from dryness and dirt.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- carousel image controllers -->
+            <a href="#carsel" class="carousel-control-prev" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a href="#carsel" class="carousel-control-next" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </div>
+    <!-- welcome note-->
+    <div class="container" id="about">
+        <h3>Welcome to Dove...</h3>
+        <div id="para1">
+           <p id="p1">
+               ...the home of real beauty. For over a decade, we've been working to make beauty a source of confidence, not anxiety, and here's where the journey continues... 
+               <button id="read" class="btn btn-outline">Read more</button>
+            </p>
+            <p id="p2">
+                Beauty is not defined by shape, size or colour – it’s feeling like the best version of yourself. Authentic. Unique. Real. Which is why we’ve made sure our site reflects that. Every image you see here features women cast from real life. A real life version of beauty.
+            <br><br>
+                Whatever you’re looking for – products to provide you with the care you need, tips and advice ranging from hair care, to skin care, to underarm care – everything you see here is designed to make you feel beautiful.
+               <button id="less" class="btn btn-outline">show less</button>
+
+            </p>
+        </div>
+    </div>
+
+    <!-- market designs -->
+    <div class="container-fluid" id="">
+        <div class="row">
+            <div class="col-sm-4 ">
+                <img src="img/mrkt01.webp" class="rounded-circle" id="mrkt01">
+            </div>
+            <div class="col-sm-4 ">
+                <img src="img/mrkt02.webp"class="rounded-circle" id="mrkt02">
+            </div>
+            <div class="col-sm-4 " >
+                <img src="img/bubble2.png" id="mkrt03">
+               
+                <h4 id="mrkt03h" > Help end hair discrimination, stay confident</h4>
+                <div  id="fmrkt01">
+                    <p> We want inclusive beauty to be welcomed
+                        in schools, at work, and everywhere else.
+                        Join us to help end race-based hair discrimination.
+                    </p>
+                    <div >
+                        <button class="btn btn-info" ><a href="contact.php" style="text-decoration: none;color: white;">Let's Go</a></button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- visions -->
+
+    <div class="jumbotron container" >
+        <p>From your shower to suit.. Best cleaning agent ever... Dove</p>
+        <p>At Dove, we have a vision of a world where beauty is a source of confidence, not anxiety</p>
+    </div>
+
+    <div class="conatiner" id="mission1">
+        <div class="row">
+            <div class="col-sm-12" >
+                <p>  
+                    Dove soap contains all the relevant creams and compounds that not only cleanse the oily skin but also
+                    prevent it from dryness and dirt.
+                </p>
+            </div> 
+        </div>
+            <div class="row">
+                <div class="col-sm-12" >
+                    <p class="well">
+                        <h3 id="missionheader">Mission</h3>
+                        Our mission is to ensure the next generation grow up enjoying a positive relationship with the way they look – helping girls to raise their self-esteem and realise their full potential.
+
+                    </p>
+                </div>
+            </div>
+    </div>
+
+    <!-- our products -->
+    <div class="container-fluid" id="products">
+        <div class="row" id="products">
+            <div class="col-sm-8" >
+                <img src="img/prod1.jpeg" id="prods1">
+                <img src="img/prod2.jpeg" id="prods1">
+                <img src="img/prod3.webp" id="prods1">
+                <img src="img/prod7.png" id="prods1">
+                <img src="img/prod4.jpeg" id="prods1">
+                <img src="img/prod5.png" id="prods1">
+                <img src="img/prod4.png" id="prods1">
+                <img src="img/prod6.png" id="prods1">
+                <img src="img/prod3.jpeg" id="prods1">
+                <img src="img/prod8.webp" id="prods1">
+            </div>
+            <div class="col-sm-4">
+                <div class="carousel slide" data-ride="carousel" id="prods">
+                    <ul class="carousel-indicators">
+                        <li data-target="#carsel" data-slide-to="0" class="active"></li>
+                        <li data-target="#carsel" data-slide-to="1"></li>
+                        <li data-target="#carsel" data-slide-to="2"></li>
+                    </ul>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" id="prod-item">
+                            <img src="img/prod1.jpeg" id="proddis" >
+                            <div class="carousel-caption">
+                                <p>Best perfumes</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" id="prod-item">
+                            <img src="img/prod2.jpeg" id="proddis" >
+                            <div class="carousel-caption">
+                                <p>Keep clean</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" id="prod-item">
+                            <img src="img/prod3.jpeg" id="proddis">
+                            <div class="carousel-caption">
+                                <p>Dove soap</p>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-12" id="contact">
+            <img src="img/contactimg.webp" class="rounded-circle">
+            <h3>Be on the know</h3>
+            <p>Join our Dove newsletter to get the latest product news, offers, tips and advice</p>
+            <a href="contact.php"><input type="button" value="sign up" class="btn btn-outline-info" id="signup"></a>
+        </div>
+    </div>
+</div>
+<br><br><br>
+<div class="container-fluid">
+    <div class="jumbotron">
+        <h3>Our Patners</h3>
+        <ul id="footerul">
+            <img src="img/patner.jpeg" id="imgp">
+            <img src="img/patnernew.png" id="imgp">
+            <img src="img/patner3.jpeg" id="imgp">
+            <img src="img/patner4.jpeg" id="imgp">
+        </ul>
+        <div class="row" id="disclaimer">
+            <div class="col-sm-6">
+                 <ul id="footer1">
+                    <li> <a href="">Disclaimer</a></li>
+                    <li> <a href="">FAQ</a></li>
+                    <li><a href="">Terms of use</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-6">
+                <ul id="footer2">
+                    <li><a href="contact.php">Contact us</a></li>
+                    <li> <a href="">Privacy Notices</a></li>
+                    <li><a href="">Product Notices</a></li>
+                </ul>
+            </div>
+            <small style="margin-left: 440px;"> Find the beauty in the bar. Everybody is beautifull</small>
+        </div>
+        
+        <div >
+            <a href="contact.php"><button type="submit" class="btn btn-success" id="feedbck">Feedback</button></a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
